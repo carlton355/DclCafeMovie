@@ -1,4 +1,4 @@
-const stream = new VideoRealtimeStream("https://stream.decentralandlive.net:5443/WebRTCAppEE/", "898681913277907905407347", "AntMediaEnterprise");
+const stream = new VideoRealtimeStream("https://stream.decentralandlive.net:5443/WebRTCAppEE/", "movie", "AntMediaEnterprise");
 const videoTexture = new VideoRealtimeTexture(stream);
 
 const material = new Material();
