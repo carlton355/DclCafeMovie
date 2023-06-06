@@ -13,7 +13,6 @@ bar.addComponent(new Transform({
   scale: new Vector3(1.9, 1.9, 1.9)
 }))
 
-material.albedoColor = Color4.Black();
 material.albedoTexture = videoTexture;
 material.roughness = 1;
 material.specularIntensity = 0;
